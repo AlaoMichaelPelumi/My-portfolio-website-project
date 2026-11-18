@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none">
+  <!-- Subtle Grid lines -->
+  <path d="M 0 0 L 300 0 M 0 100 L 300 100 M 0 200 L 300 200 M 0 300 L 300 300" stroke="rgba(0, 198, 255, 0.08)" stroke-width="1"/>
+  <path d="M 0 0 L 0 300 M 100 0 L 100 300 M 200 0 L 200 300 M 300 0 L 300 300" stroke="rgba(0, 198, 255, 0.08)" stroke-width="1"/>
+  
+  <!-- Diagonal tech lines -->
+  <path d="M 0 100 L 100 0 M 100 300 L 300 100 M 200 300 L 300 200" stroke="rgba(214, 51, 255, 0.12)" stroke-width="1" stroke-dasharray="4 6"/>
+  <path d="M 0 200 L 200 0 M 0 300 L 300 0" stroke="rgba(0, 198, 255, 0.08)" stroke-width="1"/>
+  
+  <!-- Intersecting Nodes / Dots -->
+  <circle cx="100" cy="100" r="3.5" fill="#00c6ff" opacity="0.45"/>
+  <circle cx="200" cy="200" r="3.5" fill="#d633ff" opacity="0.45"/>
+  <circle cx="100" cy="200" r="2" fill="#00c6ff" opacity="0.3"/>
+  <circle cx="200" cy="100" r="2" fill="#d633ff" opacity="0.3"/>
+  <circle cx="0" cy="0" r="3" fill="#00c6ff" opacity="0.4"/>
+  <circle cx="300" cy="0" r="3" fill="#00c6ff" opacity="0.4"/>
+  <circle cx="0" cy="300" r="3" fill="#00c6ff" opacity="0.4"/>
+  <circle cx="300" cy="300" r="3" fill="#00c6ff" opacity="0.4"/>
+  <circle cx="0" cy="100" r="2" fill="#d633ff" opacity="0.3"/>
+  <circle cx="300" cy="100" r="2" fill="#d633ff" opacity="0.3"/>
+  <circle cx="100" cy="0" r="2" fill="#00c6ff" opacity="0.3"/>
+  <circle cx="100" cy="300" r="2" fill="#00c6ff" opacity="0.3"/>
+
+  <!-- Tech crosshairs -->
+  <path d="M 94 100 H 106 M 100 94 V 106" stroke="rgba(0, 198, 255, 0.5)" stroke-width="1"/>
+  <path d="M 194 200 H 206 M 200 194 V 206" stroke="rgba(214, 51, 255, 0.5)" stroke-width="1"/>
+</svg>
